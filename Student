@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+int SummGroups(int a.total(), int b.total());
+
+class Group{
+public:
+    int girls;
+    int boys;
+    
+    int total();
+};
+
+int Group::total(){
+    return girls+boys;    
+}
+
+int SummGroups(int a.total(), int b.total()){
+    //??????????????????????????????????????????
+}
+
+int main()
+{
+    Group a;
+    a.girls=12;
+    a.boys=13;
+    Group b;
+    b.girls=14;
+    b.boys=8;
+    
+    cout <<"Количество Ж в группе A "<<a.girls<<"\n";
+    cout <<"Количество Ж в группе B "<<b.girls<<"\n";
+    cout <<"Число учащихся в группе A "<<a.total()<<"\n";
+    cout <<"Число учащихся в группе B "<<b.total()<<"\n";
+    return 0;
+}
